@@ -9,22 +9,11 @@ This project provides a comprehensive end-to-end solution for Medallion structur
 This project demonstrates the creation and management of various Azure resources as part of a data pipeline setup. Below are the resources created for this project:
 
 <details>
-  <summary><strong>1. ADF Pipeline</strong></summary>
-  </details>
-
-<details>
-  <summary><strong>2. Creating a Storage Account Resource</strong></summary>
-  ![Creating Parent Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/parent%20pipeline.png)
-  </details>
-
-<details>
-  <summary><strong>2. Creating a Storage Account Resource</strong></summary>
-  ![Creating Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/child%20pipeline.png)
-  </details>
-
-<details>
-  <summary><strong>2. Creating a Storage Account Resource</strong></summary>
-  ![Inside forEach Activity in Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/inside%20forEach%20activity%20of%20child%20pipeline.png)
+  <summary><strong>1. Creating a Resource Group</strong></summary>
+  
+  ![Creating Resource Group](https://github.com/shamsaravaiah/Azure-Data-Pipeline/blob/main/Screen%20shots/creating%20resource%20group.png)
+  
+</details>
   
   
 </details>
