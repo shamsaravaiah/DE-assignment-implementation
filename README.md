@@ -6,7 +6,7 @@ This project provides a comprehensive end-to-end solution for Medallion structur
 
 # ADF Implementation
 
-This project demonstrates the creation and management of various Azure resources as part of a data pipeline setup. Below are the resources created for this project:
+The data flow process is orchestrated using ADF pipeline, with and parent and child pipelines to move latest files from each folder and coopy to correspondind destination folders in destination container:
 
 <details>
   <summary><strong>1. ADF Pipeline Implementation</strong></summary>
@@ -32,7 +32,7 @@ This project demonstrates the creation and management of various Azure resources
 <details>
   <summary><strong>2. Creating a Storage Account Resource</strong></summary>
   
-  ![Created Storage Account Resource](https://github.com/shamsaravaiah/Azure-Data-Pipeline/blob/main/Screen%20shots/created%20storage%20account%20resource.png)
+  
   
 </details>
 
