@@ -7,9 +7,13 @@ This is the implementation of DE-assignment-implementation.
 this is the implementation of the adf project, It involved 2 parts as seen below:-
 <details>
   <summary><strong>1. Creating the ADF Pipeline </strong></summary>
+  <details>
+    <summary><strong>1. Creating the ADF Pipeline </strong></summary>
 
 <details>
   <summary><strong>1. Creating Databricks Notebooks </strong></summary>
+  <details>
+    <summary><strong>1. Creating the ADF Pipeline </strong></summary>
 
 </details>
 
