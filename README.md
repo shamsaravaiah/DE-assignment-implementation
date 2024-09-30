@@ -30,7 +30,10 @@ The data flow process is orchestrated using ADF pipeline, with and parent and ch
 </details>
 
 <details>
-  <summary><strong>2. Creating a Storage Account Resource</strong></summary>
+  <summary><strong>2. Resources I have used for the ADF implementation</strong></summary>
+  1. ADF (data flow orchestration)
+  2. ADLS gen 2 ( storage purpose, heirarchial namespace)
+  3. Databricks ( to perform transformations on the source datasets prior to saving in the next layer)
   
   
   
