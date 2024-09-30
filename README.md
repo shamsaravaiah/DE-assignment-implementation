@@ -10,7 +10,6 @@ This project demonstrates the creation and management of various Azure resources
 
 <details>
   <summary><strong>1. ADF Pipeline Implementation</strong></summary>
-  ### Aim is to extract fresh and latest files from source and copy it to destination
   ### Creating Parent Pipeline
   ![Creating Parent Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/parent%20pipeline.png)
   In the parent pipeline, I iteratate over the sales-view-devtst container to get the metadata at the container level, which will result in the folders [customer, product, sales store] as child items
@@ -24,6 +23,8 @@ This project demonstrates the creation and management of various Azure resources
   I have assigned a pipeline level variable and assigned an old date value. Inside the forEach activity of the child pipeline I compare the data variable with the lastModified of the current file, if greater I swap the date variable with lastModified to
   preserve the latest date. I then assign the filename to a variable using Setvariable activity
   Then i copy the file to the destination using the lastet file name using the copyData activity
+  Aim is to extract fresh and latest files from source and copy it to destination
+
 
 </details>
   
