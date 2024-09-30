@@ -9,7 +9,7 @@ This project provides a comprehensive end-to-end solution for Medallion structur
 The data flow process is orchestrated using ADF pipeline, with and parent and child pipelines to move latest files from each folder and coopy to correspondind destination folders in destination container:
 
 <details>
-  <summary><strong>1. ADF Pipeline Implementation</strong></summary>
+  <summary><strong>1. ADF Pipeline Implementation (with diagrams and explanation)</strong></summary>
   
   ### Creating Parent Pipeline
   ![Creating Parent Pipeline](https://raw.githubusercontent.com/shamsaravaiah/DE-assignment-implementation/main/ADF%20implementation/Screenshots/parent%20pipeline.png)
@@ -32,6 +32,13 @@ The data flow process is orchestrated using ADF pipeline, with and parent and ch
   - Databricks (to perform transformations on the source datasets prior to saving in the next layer)
 </details>
 
+
+
+
+
+
+# Databricks Implementation
+
 <details>
   <summary><strong>3. Heading 3</strong></summary>
     
@@ -41,10 +48,3 @@ The data flow process is orchestrated using ADF pipeline, with and parent and ch
   <summary><strong>4. heading 4</strong></summary>
     
 </details>
-
-
-
-
-# Databricks Implementation
-
-
