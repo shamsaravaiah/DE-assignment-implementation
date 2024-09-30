@@ -42,11 +42,15 @@ The data flow process is orchestrated using ADF pipeline, with and parent and ch
 <details>
   <summary><strong>3. assignment 1</strong></summary>
   Implemented the mentioned transformation, using UDF functions and writing a fact table into DBFS as delta table which can be queried on using the mentioned requirements.
-  https://github.com/shamsaravaiah/DE-assignment-implementation/tree/main/Databricks%20implementation/Question%201
+    **Link:** [GitHub Repository](https://github.com/shamsaravaiah/DE-assignment-implementation/tree/main/Databricks%20implementation/Question%201)
+
+  
     
 </details>
 
 <details>
   <summary><strong>4. assignment 2</strong></summary>
+  Extracted data from an api end point and performed transforamtions and flattening the data set. And wrote it into DBFS as delta table
+  **Link:** [GitHub Repository](https://github.com/shamsaravaiah/DE-assignment-implementation/tree/main/Databricks%20implementation/Question%202)
     
 </details>
