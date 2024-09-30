@@ -51,6 +51,6 @@ The data flow process is orchestrated using ADF pipeline, with and parent and ch
 <details>
   <summary><strong>4. assignment 2</strong></summary>
   Extracted data from an api end point and performed transforamtions and flattening the data set. And wrote it into DBFS as delta table
-  **Link:** [GitHub Repository](https://github.com/shamsaravaiah/DE-assignment-implementation/tree/main/Databricks%20implementation/Question%202)
+  Link: [GitHub Repository](https://github.com/shamsaravaiah/DE-assignment-implementation/tree/main/Databricks%20implementation/Question%202)
     
 </details>
