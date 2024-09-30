@@ -13,7 +13,7 @@ This project demonstrates the creation and management of various Azure resources
 
   ### Creating Parent Pipeline
   ![Creating Parent Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/parent%20pipeline.png)
-
+  lol
   ### Creating Child Pipeline
   ![Creating Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/child%20pipeline.png)
 
