@@ -10,7 +10,7 @@ This project demonstrates the creation and management of various Azure resources
 
 <details>
   <summary><strong>1. ADF Pipeline Implementation</strong></summary>
-
+  ### Aim is to extract fresh and latest files from source and copy it to destination
   ### Creating Parent Pipeline
   ![Creating Parent Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/parent%20pipeline.png)
   In the parent pipeline, I iteratate over the sales-view-devtst container to get the metadata at the container level, which will result in the folders [customer, product, sales store] as child items
