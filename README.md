@@ -10,9 +10,22 @@ This project demonstrates the creation and management of various Azure resources
 
 <details>
   <summary><strong>1. ADF Pipeline</strong></summary>
+  </details>
+
+<details>
+  <summary><strong>2. Creating a Storage Account Resource</strong></summary>
   ![Creating Parent Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/parent%20pipeline.png)
+  </details>
+
+<details>
+  <summary><strong>2. Creating a Storage Account Resource</strong></summary>
   ![Creating Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/child%20pipeline.png)
+  </details>
+
+<details>
+  <summary><strong>2. Creating a Storage Account Resource</strong></summary>
   ![Inside forEach Activity in Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/inside%20forEach%20activity%20of%20child%20pipeline.png)
+  
   
 </details>
 
