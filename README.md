@@ -9,13 +9,17 @@ This project provides a comprehensive end-to-end solution for Medallion structur
 This project demonstrates the creation and management of various Azure resources as part of a data pipeline setup. Below are the resources created for this project:
 
 <details>
-  <summary><strong>1. ADF Pipeline implementation</strong></summary>
-  
-  ![Creating Resource Group](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/parent%20pipeline.png)
-  ![Creating Resource Group](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/child%20pipeline.png)
-  ![Creating Resource Group](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/inside%20forEach%20activity%20of%20child%20pipeline.png)
-  
-  
+  <summary><strong>1. ADF Pipeline Implementation</strong></summary>
+
+  ### Creating Parent Pipeline
+  ![Creating Parent Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/parent%20pipeline.png)
+
+  ### Creating Child Pipeline
+  ![Creating Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/child%20pipeline.png)
+
+  ### Inside forEach Activity in Child Pipeline
+  ![Inside forEach Activity in Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/inside%20forEach%20activity%20of%20child%20pipeline.png)
+
 </details>
   
   
