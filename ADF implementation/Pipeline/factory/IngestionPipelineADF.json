@@ -1,0 +1,9 @@
+{
+	"name": "IngestionPipelineADF",
+	"location": "swedencentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5fb873e9-b6ac-408c-8cb4-77b81105231c",
+		"tenantId": "20a08500-890a-4f9e-9e40-2001fe0306f0"
+	}
+}
