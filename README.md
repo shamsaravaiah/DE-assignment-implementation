@@ -57,33 +57,35 @@ The data flow process is orchestrated using ADF pipeline, with and parent and ch
 
 # Answeres to quesitons
 
-<details>
-    <summary><strong>3. What is Data Profiling?</strong></summary>
+<details> 
+  <summary><strong>3. What is Data Profiling?</strong></summary>
+Data profiling is the process of checking and analyzing data to understand what it looks like, assess its quality, and check how good it is. This helps identify patterns, errors, and the overall quality of the data.
 
+For the provided data, the data profiling steps that were done include:
 
-  Data profiling is the process of checking and analyzing data to understand what it looks like and asses its quality and check how good it is. This helps identify patterns, errors, and the overall quality of the data.
-  
-  For the provided data what data profiling steps was done
-  The data profiling steps that have been done in the use case are:-
-  Check Column Headers: Ensure all column headers are in snake case and lowercase.
-  Identify Patterns: Analyze and create new columns based on existing data (e.g., splitting names, extracting domains from emails).
-  Assess Data Types: Convert data types where necessary (e.g., date formats to "yyyy-MM-dd").
-  Validate Values: Check and categorize values (e.g., expenditure status based on spending amounts).
-  Identify and Handle Anomalies: Ensure data consistency and correctness through transformations and checks.
-  Dynamic File Assessment: Continuously monitor and retrieve the latest modified files in the ADLS.
-  Transform Data: Apply rules for data transformation based on profiling insights (e.g., creating subcategories, store categories).
-<details>
+Check Column Headers: Ensure all column headers are in snake case and lowercase.
+Identify Patterns: Analyze and create new columns based on existing data (e.g., splitting names, extracting domains from emails).
+Assess Data Types: Convert data types where necessary (e.g., date formats to yyyy-MM-dd).
+Validate Values: Check and categorize values (e.g., expenditure status based on spending amounts).
+Identify and Handle Anomalies: Ensure data consistency and correctness through transformations and checks.
+Dynamic File Assessment: Continuously monitor and retrieve the latest modified files in the ADLS.
+Transform Data: Apply rules for data transformation based on profiling insights (e.g., creating subcategories, store categories).
+</details>
 
 <details>
-    <summary><strong>3.End to end Understanding</strong></summary>
-
-Based on my understanding the use case was meant for the purpose to implement a structured data processing pipeline using Azure Data Lake Storage (ADLS) and Azure Data Factory (ADF) for sales data analysis. It involves extracting fresh file that are being loaed, transforming, and loading (ETL) data from various sources into a bronze layer for raw storage, a silver layer for processed data, and a gold layer for analytical insights. This setup enables real-time data processing, improved data quality, and enhanced decision-making through consolidated sales reports.
-
-The use case uses the Medallion Architecture pattern, this architecture  consists of three layers:
-1. Bronze Layer: Raw data storage where all incoming data is initially ingested without significant transformations. This serves as the source of truth.
-2. Silver Layer: Processed data that has undergone cleaning and transformation. This layer is used for more refined analytics, in my use case it contains semi processed/partially cleaned data
-3. Gold Layer: The final, curated data  ie StoreProductSalesAnalys is used for reporting and analytics. It provides high-level insights and can be considered as the data mart. In my use case I created a large table which can be queried on many ways to derive insights.
-This layered approach facilitates incremental data processing and enhances data quality while allowing for flexible analytics across different stages of the data lifecycle, as making data available for different workloads.
-
 <details>
+  <summary><strong>3. End-to-End Understanding</strong></summary>
+Based on my understanding, the use case was designed to implement a structured data processing pipeline using Azure Data Lake Storage (ADLS) and Azure Data Factory (ADF) for sales data analysis. It involves extracting fresh files that are being loaded, transforming, and loading (ETL) data from various sources into a bronze layer for raw storage, a silver layer for processed data, and a gold layer for analytical insights. This setup enables real-time data processing, improved data quality, and enhanced decision-making through consolidated sales reports.
+
+The use case uses the Medallion Architecture pattern, which consists of three layers:
+
+Bronze Layer: Raw data storage where all incoming data is initially ingested without significant transformations. This serves as the source of truth.
+
+Silver Layer: Processed data that has undergone cleaning and transformation. This layer is used for more refined analytics. In my use case, it contains semi-processed/partially cleaned data.
+
+Gold Layer: The final, curated data. In my use case, it contains the StoreProductSalesAnalys data, used for reporting and analytics. It provides high-level insights and can be considered as the data mart. In my use case, I created a large table that can be queried in many ways to derive insights.
+
+This layered approach facilitates incremental data processing and enhances data quality while allowing for flexible analytics across different stages of the data lifecycle, making data available for different workloads.
+
+</details>
 
