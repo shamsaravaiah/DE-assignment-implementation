@@ -3,9 +3,11 @@
 This is the implementation of DE-assignment-implementation.
 
 ## ADF Implementation
+<details>
+  <summary><strong>1. Creating a Resource Group</strong></summary>
 
-Describe your ADF (Azure Data Factory) implementation here. You can provide details on how the workflows, pipelines, and data transformations are set up.
-
+this is the implementation of the adf project, It involved 2 parts as seen below:-
+###
 ## Databricks Implementation
 
 Explain your Databricks implementation here. Include information about notebooks, clusters, workflows, and integration with other systems.
