@@ -17,7 +17,8 @@ This project demonstrates the creation and management of various Azure resources
   the will be passed into the execute pipeline activity which runs the child pipleline. 
   ### Creating Child Pipeline
   ![Creating Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/child%20pipeline.png)
-
+  The child pipeline takes the current item in the forEach actiity and passes into the pipeline level parameter that I have configured for the child Pipeline.
+  The current folder is passed to the getMetadata activity insdie the forEach activity of the child pipeline which results in an array of child items as lastModified date and file name
   ### Inside forEach Activity in Child Pipeline
   ![Inside forEach Activity in Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/inside%20forEach%20activity%20of%20child%20pipeline.png)
 
