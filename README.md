@@ -9,7 +9,7 @@ This project provides a comprehensive end-to-end solution for Medallion structur
 This project demonstrates the creation and management of various Azure resources as part of a data pipeline setup. Below are the resources created for this project:
 
 <details>
-  <summary><strong>1. Creating a Resource Group</strong></summary>
+  <summary><strong>1. ADF Pipeline implementation</strong></summary>
   
   ![Creating Resource Group](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/parent%20pipeline.png)
   ![Creating Resource Group](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/child%20pipeline.png)
