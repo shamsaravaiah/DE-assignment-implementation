@@ -21,6 +21,8 @@ This project demonstrates the creation and management of various Azure resources
   The current folder is passed to the getMetadata activity insdie the forEach activity of the child pipeline which results in an array of child items as lastModified date and file name
   ### Inside forEach Activity in Child Pipeline
   ![Inside forEach Activity in Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/inside%20forEach%20activity%20of%20child%20pipeline.png)
+  i have assigned a pipeline level variable and assigned an old date value. Inside the forEach activity of the child pipeline I compare the data variable with the lastModified of the current file, if greater I swap the date variable with lastModified to
+  preserve the latest date. I then assign the filename to a variable using Setvariable activity
 
 </details>
   
