@@ -29,7 +29,7 @@ The data flow process is orchestrated using ADF pipeline, with and parent and ch
   <summary><strong>2. Resources I have used for the ADF implementation</strong></summary>
   - ADF (data flow orchestration)
   - ADLS Gen 2 (storage purpose, hierarchical namespace)
-  - Databricks (to perform transformations on the source datasets prior to saving in the next layer)
+  - Databricks (to perform transformations on the source datasets prior to saving in the next layer, Implemented medallion architecture to process the files applying the mentioned transformations and writing them as Delta tables using Upset operation)
 </details>
 
 
@@ -40,11 +40,13 @@ The data flow process is orchestrated using ADF pipeline, with and parent and ch
 # Databricks Implementation
 
 <details>
-  <summary><strong>3. Heading 3</strong></summary>
+  <summary><strong>3. assignment 1</strong></summary>
+  Implemented the mentioned transformation, using UDF functions and writing a fact table into DBFS as delta table which can be queried on using the mentioned requirements.
+  https://github.com/shamsaravaiah/DE-assignment-implementation/tree/main/Databricks%20implementation/Question%201
     
 </details>
 
 <details>
-  <summary><strong>4. heading 4</strong></summary>
+  <summary><strong>4. assignment 2</strong></summary>
     
 </details>
