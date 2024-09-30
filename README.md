@@ -13,7 +13,8 @@ This project demonstrates the creation and management of various Azure resources
 
   ### Creating Parent Pipeline
   ![Creating Parent Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/parent%20pipeline.png)
-  lol
+  In the parent pipeline, I iteratate over the sales-view-devtst container to get the metadata at the container level, which will result in the folders [customer, product, sales store] as child items
+  the will be passed into the execute pipeline activity which runs the child pipleline. 
   ### Creating Child Pipeline
   ![Creating Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/child%20pipeline.png)
 
