@@ -1,32 +1,45 @@
-# DE-assignment-implementation
+# Data Engineering assignment
+This project provides a comprehensive end-to-end solution for Medallion structure ETL using ADF and Databricks as well as fetching Data from api end point
 
-This is the implementation of DE-assignment-implementation.
 
-## ADF Implementation
 
-this is the implementation of the adf project, It involved 2 parts as seen below:-
-<details>
-  <summary><strong>1. Creating the ADF Pipeline </strong></summary>
-  <details>
-    <summary><strong>1. Creating the ADF Pipeline </strong></summary>
+
+# Azure Data Pipeline Project
+
+This project demonstrates the creation and management of various Azure resources as part of a data pipeline setup. Below are the resources created for this project:
 
 <details>
-  <summary><strong>1. Creating Databricks Notebooks </strong></summary>
-  <details>
-    <summary><strong>1. Creating the ADF Pipeline </strong></summary>
-
+  <summary><strong>1. Creating a Resource Group</strong></summary>
+  
+  ![Creating Resource Group](https://github.com/shamsaravaiah/Azure-Data-Pipeline/blob/main/Screen%20shots/creating%20resource%20group.png)
+  
 </details>
 
+<details>
+  <summary><strong>2. Creating a Storage Account Resource</strong></summary>
+  
+  ![Created Storage Account Resource](https://github.com/shamsaravaiah/Azure-Data-Pipeline/blob/main/Screen%20shots/created%20storage%20account%20resource.png)
+  
+</details>
 
-###
-## Databricks Implementation
+<details>
+  <summary><strong>3. Creating a Key Vault Resource</strong></summary>
+  
+  ![Created Key Vault Resource](https://github.com/shamsaravaiah/Azure-Data-Pipeline/blob/main/Screen%20shots/created%20key%20vault%20resource.png)
+  
+</details>
 
-Explain your Databricks implementation here. Include information about notebooks, clusters, workflows, and integration with other systems.
+<details>
+  <summary><strong>4. Creating a Databricks Workspace</strong></summary>
+  
+  ![Created Databricks Workspace](https://github.com/shamsaravaiah/Azure-Data-Pipeline/blob/main/Screen%20shots/created%20Databricks%20workspace.png)
+  
+</details>
 
-### Question 1
+<details>
+  <summary><strong>5. Creating an Azure Data Factory Resource</strong></summary>
+  
+  ![Created Azure Data Factory Resource](https://github.com/shamsaravaiah/Azure-Data-Pipeline/blob/main/Screen%20shots/created%20ADF%20resource.png)
+  
+</details>
 
-Provide details for Question 1 here, explaining the specific part of the Databricks implementation or addressing the first topic.
-
-### Question 2
-
-Provide details for Question 2 here, explaining another part of the Databricks implementation or addressing the second topic.
