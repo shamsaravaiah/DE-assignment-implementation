@@ -10,23 +10,21 @@ This project demonstrates the creation and management of various Azure resources
 
 <details>
   <summary><strong>1. ADF Pipeline Implementation</strong></summary>
+  
   ### Creating Parent Pipeline
-  ![Creating Parent Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/parent%20pipeline.png)
-  In the parent pipeline, I iteratate over the sales-view-devtst container to get the metadata at the container level, which will result in the folders [customer, product, sales store] as child items
-  the will be passed into the execute pipeline activity which runs the child pipleline. 
+  ![Creating Parent Pipeline](https://raw.githubusercontent.com/shamsaravaiah/DE-assignment-implementation/main/ADF%20implementation/Screenshots/parent%20pipeline.png)
+  In the parent pipeline, I iterate over the sales-view-devtst container to get the metadata at the container level, which will result in the folders [customer, product, sales store] as child items that will be passed into the execute pipeline activity which runs the child pipeline. 
+  
   ### Creating Child Pipeline
-  ![Creating Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/child%20pipeline.png)
-  The child pipeline takes the current item in the forEach actiity and passes into the pipeline level parameter that I have configured for the child Pipeline.
-  The current folder is passed to the getMetadata activity insdie the forEach activity of the child pipeline which results in an array of child items as lastModified date and file name
+  ![Creating Child Pipeline](https://raw.githubusercontent.com/shamsaravaiah/DE-assignment-implementation/main/ADF%20implementation/Screenshots/child%20pipeline.png)
+  The child pipeline takes the current item in the forEach activity and passes it into the pipeline level parameter that I have configured for the child Pipeline. The current folder is passed to the getMetadata activity inside the forEach activity of the child pipeline, resulting in an array of child items with the lastModified date and file name.
+  
   ### Inside forEach Activity in Child Pipeline
-  ![Inside forEach Activity in Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/inside%20forEach%20activity%20of%20child%20pipeline.png)
-  I have assigned a pipeline level variable and assigned an old date value. Inside the forEach activity of the child pipeline I compare the data variable with the lastModified of the current file, if greater I swap the date variable with lastModified to
-  preserve the latest date. I then assign the filename to a variable using Setvariable activity
-  Then i copy the file to the destination using the lastet file name using the copyData activity
-  Aim is to extract fresh and latest files from source and copy it to destination
-
+  ![Inside forEach Activity in Child Pipeline](https://raw.githubusercontent.com/shamsaravaiah/DE-assignment-implementation/main/ADF%20implementation/Screenshots/inside%20forEach%20activity%20of%20child%20pipeline.png)
+  I have assigned a pipeline level variable and assigned an old date value. Inside the forEach activity of the child pipeline, I compare the date variable with the lastModified of the current file. If greater, I swap the date variable with lastModified to preserve the latest date. I then assign the filename to a variable using the SetVariable activity. Then I copy the file to the destination using the latest file name with the Copy Data activity. The aim is to extract fresh and latest files from the source and copy them to the destination.
 
 </details>
+
   
   
 </details>
