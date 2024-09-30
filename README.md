@@ -33,25 +33,16 @@ The data flow process is orchestrated using ADF pipeline, with and parent and ch
 </details>
 
 <details>
-  <summary><strong>3. Creating a Key Vault Resource</strong></summary>
-  
-  ![Created Key Vault Resource](https://github.com/shamsaravaiah/Azure-Data-Pipeline/blob/main/Screen%20shots/created%20key%20vault%20resource.png)
-  
+  <summary><strong>3. Heading 3</strong></summary>
+    
 </details>
 
 <details>
-  <summary><strong>4. Creating a Databricks Workspace</strong></summary>
-  
-  ![Created Databricks Workspace](https://github.com/shamsaravaiah/Azure-Data-Pipeline/blob/main/Screen%20shots/created%20Databricks%20workspace.png)
-  
+  <summary><strong>4. heading 4</strong></summary>
+    
 </details>
 
-<details>
-  <summary><strong>5. Creating an Azure Data Factory Resource</strong></summary>
-  
-  ![Created Azure Data Factory Resource](https://github.com/shamsaravaiah/Azure-Data-Pipeline/blob/main/Screen%20shots/created%20ADF%20resource.png)
-  
-</details>
+
 
 
 # Databricks Implementation
