@@ -73,7 +73,6 @@ Transform Data: Apply rules for data transformation based on profiling insights 
 </details>
 
 <details>
-<details>
   <summary><strong>3. End-to-End Understanding</strong></summary>
 Based on my understanding, the use case was designed to implement a structured data processing pipeline using Azure Data Lake Storage (ADLS) and Azure Data Factory (ADF) for sales data analysis. It involves extracting fresh files that are being loaded, transforming, and loading (ETL) data from various sources into a bronze layer for raw storage, a silver layer for processed data, and a gold layer for analytical insights. This setup enables real-time data processing, improved data quality, and enhanced decision-making through consolidated sales reports.
 
