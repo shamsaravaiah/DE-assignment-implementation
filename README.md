@@ -10,11 +10,12 @@ This project demonstrates the creation and management of various Azure resources
 
 <details>
   <summary><strong>1. ADF Pipeline</strong></summary>
-  hello bro
-  
+  Parent Pipeline
   ![Creating Parent Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/parent%20pipeline.png)
+  Child Pipeline
   ![Creating Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/child%20pipeline.png)
-  ![Inside forEach Activity in Child Pipeline ](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/inside%20forEach%20activity%20of%20child%20pipeline.png)
+  Inside forEach Activity in Child Pipeline
+  ![Inside forEach Activity in Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/inside%20forEach%20activity%20of%20child%20pipeline.png)
   
 </details>
 
