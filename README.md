@@ -4,14 +4,16 @@ This project provides a comprehensive end-to-end solution for Medallion structur
 
 
 
-# Azure Data Pipeline Project
+# ADF Implementation
 
 This project demonstrates the creation and management of various Azure resources as part of a data pipeline setup. Below are the resources created for this project:
 
 <details>
-  <summary><strong>1. Creating a Resource Group</strong></summary>
+  <summary><strong>1. ADF Pipeline</strong></summary>
   
-  ![Creating Resource Group](https://github.com/shamsaravaiah/Azure-Data-Pipeline/blob/main/Screen%20shots/creating%20resource%20group.png)
+  ![Creating Parent Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/parent%20pipeline.png)
+  ![Creating Child Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/child%20pipeline.png)
+  ![Inside forEach Activity in Child Pipeline ](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/ADF%20implementation/Screenshots/inside%20forEach%20activity%20of%20child%20pipeline.png)
   
 </details>
 
@@ -42,4 +44,8 @@ This project demonstrates the creation and management of various Azure resources
   ![Created Azure Data Factory Resource](https://github.com/shamsaravaiah/Azure-Data-Pipeline/blob/main/Screen%20shots/created%20ADF%20resource.png)
   
 </details>
+
+
+# Databricks Implementation
+
 
