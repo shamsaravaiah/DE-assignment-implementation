@@ -1,0 +1,10 @@
+{
+	"name": "LS_keyvaul",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://DE-assignment-KV.vault.azure.net/"
+		}
+	}
+}
