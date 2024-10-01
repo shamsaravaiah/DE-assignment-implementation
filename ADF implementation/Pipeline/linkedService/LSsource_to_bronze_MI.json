@@ -1,0 +1,10 @@
+{
+	"name": "LSsource_to_bronze_MI",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://salesviewadlsdev.dfs.core.windows.net/"
+		}
+	}
+}
