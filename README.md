@@ -53,8 +53,11 @@ The data flow process is orchestrated using ADF pipeline, with and parent and ch
   Extracted data from an api end point and performed transforamtions and flattening the data set. And wrote it into DBFS as delta table
   Link: [GitHub Repository](https://github.com/shamsaravaiah/DE-assignment-implementation/tree/main/Databricks%20implementation/Question%202)
   <details>
-  <summary><strong>1. api data pulling flow chart </strong></summary>
-  ![Creating Parent Pipeline](https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/Databricks%20implementation/Question%202/flow%20diagram.png)
+  <details>
+  <summary><strong>1. API Data Pulling Flow Chart</strong></summary>
+  <img src="https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/Databricks%20implementation/Question%202/flow%20diagram.png" alt="API Data Pulling Flow Chart">
+</details>
+
 </details>
 
 # Answeres to quesitons
