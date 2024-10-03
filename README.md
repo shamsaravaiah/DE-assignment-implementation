@@ -55,7 +55,7 @@ The data flow process is orchestrated using ADF pipeline, with and parent and ch
   <details>
   <summary><strong>1. API Data Pulling Flow Chart</strong></summary>
   <img src="https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/Databricks%20implementation/Question%202/flow%20diagram.png" alt="API Data Pulling Flow Chart">
-    ## Fetching Data from API
+    
 
 1. **Constants and Utility Functions:**  
    The notebook begins by defining necessary constants and utility functions.
