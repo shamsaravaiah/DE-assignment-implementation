@@ -66,26 +66,20 @@ The data flow process is orchestrated using ADF pipeline, with and parent and ch
 3. **Data Processing:**  
    The `process_data` function checks if the response contains the expected data structure (a list of users). It logs the number of records if valid or warns of errors if not.
 
-## Data Transformation in Spark
-
-1. **Creating a Spark DataFrame:**  
+4. **Creating a Spark DataFrame:**  
    The processed data is converted into a Spark DataFrame (`api_df`). The data is displayed to verify successful loading.
 
-2. **Extracting Domain from Email:**  
+5. **Extracting Domain from Email:**  
    A user-defined function (UDF), `extract_domain`, is created using the Python `re` library to extract domain names from email addresses. This UDF generates a new column called `site_address`, which holds the extracted domains.
 
-3. **Adding a Date Column:**  
+6. **Adding a Date Column:**  
    The `add_date_column` function is called to append a date column (defined in the utils module).
-
-## Saving Data
 
 The final transformed DataFrame is saved in Delta format using Delta Lake technology. The output path is dynamically generated based on the specified database and table names.
 
 ## Listing Files
 
 The notebook concludes by listing the files stored in the output path using `dbutils.fs.ls` and prints the file names.
-
-</details>
 
 </details>
 
