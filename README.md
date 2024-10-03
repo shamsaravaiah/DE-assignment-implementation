@@ -53,9 +53,38 @@ The data flow process is orchestrated using ADF pipeline, with and parent and ch
   Extracted data from an api end point and performed transforamtions and flattening the data set. And wrote it into DBFS as delta table
   Link: [GitHub Repository](https://github.com/shamsaravaiah/DE-assignment-implementation/tree/main/Databricks%20implementation/Question%202)
   <details>
-  <details>
   <summary><strong>1. API Data Pulling Flow Chart</strong></summary>
   <img src="https://github.com/shamsaravaiah/DE-assignment-implementation/blob/main/Databricks%20implementation/Question%202/flow%20diagram.png" alt="API Data Pulling Flow Chart">
+    ## Fetching Data from API
+
+1. **Constants and Utility Functions:**  
+   The notebook begins by defining necessary constants and utility functions.
+
+2. **Data Fetching:**  
+   The `fetch_data` function sends an HTTP GET request to the API URL. It logs any errors if the request fails. On success, the function returns the JSON response for further processing.
+
+3. **Data Processing:**  
+   The `process_data` function checks if the response contains the expected data structure (a list of users). It logs the number of records if valid or warns of errors if not.
+
+## Data Transformation in Spark
+
+1. **Creating a Spark DataFrame:**  
+   The processed data is converted into a Spark DataFrame (`api_df`). The data is displayed to verify successful loading.
+
+2. **Extracting Domain from Email:**  
+   A user-defined function (UDF), `extract_domain`, is created using the Python `re` library to extract domain names from email addresses. This UDF generates a new column called `site_address`, which holds the extracted domains.
+
+3. **Adding a Date Column:**  
+   The `add_date_column` function is called to append a date column (defined in the utils module).
+
+## Saving Data
+
+The final transformed DataFrame is saved in Delta format using Delta Lake technology. The output path is dynamically generated based on the specified database and table names.
+
+## Listing Files
+
+The notebook concludes by listing the files stored in the output path using `dbutils.fs.ls` and prints the file names.
+
 </details>
 
 </details>
